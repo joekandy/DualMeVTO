@@ -1,0 +1,10 @@
+gradio
+torch
+Pillow
+numpy
+fastapi
+aiofiles
+anyio
+ffmpy
+httpx
+huggingface-hub 
