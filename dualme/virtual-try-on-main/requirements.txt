@@ -1,10 +1,38 @@
-gradio
-torch
-Pillow
-numpy
-fastapi
-aiofiles
-anyio
-ffmpy
-httpx
-huggingface-hub 
+# Core dependencies
+torch>=2.0.0
+numpy>=1.24.0
+Pillow>=10.0.0
+gradio>=4.15.0
+rembg>=2.0.50
+mediapipe>=0.10.0
+segment-anything>=1.0.0
+opencv-python>=4.8.0
+scikit-image>=0.21.0
+# Per modelli generativi custom (Stable Diffusion Inpainting, ecc.)
+diffusers>=0.26.0
+transformers>=4.36.0
+accelerate>=0.26.0
+xformers>=0.0.23
+# Web API
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+httpx>=0.25.0
+# Utilities
+tqdm>=4.66.0
+omegaconf>=2.3.0
+# Monitoring & Logging
+wandb>=0.16.0
+tensorboard>=2.15.0
+# Development & debugging
+ipython>=8.17.0
+jupyter>=1.0.0
+# Performance
+psutil>=5.9.0
+memory-profiler>=0.61.0
+# Additional utilities
+requests>=2.31.0
+pyyaml>=6.0.1
+rich>=13.7.0
+# Optional: per compatibilità
+anyio>=3.7.1
+ffmpy>=0.3.1 
